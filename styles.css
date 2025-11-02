@@ -1,0 +1,33 @@
+/** Stylesheet **/
+
+body{
+    background-color: lavender;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px;
+}
+
+.left-links,
+.right-links{
+    
+    display:flex;
+
+    
+   
+}
+
+.left-links{
+    flex-shrink:1;
+    flex-wrap:wrap;
+}
+
+ul{
+    display:flex;
+    gap:16px;
+    list-style: none;
+}
