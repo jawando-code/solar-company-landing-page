@@ -12,6 +12,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    
     background-color: blueviolet;
     padding:12px;
     font-size:18px;
@@ -22,7 +23,7 @@ body{
 
 }
 
-.left-links ul,.right-links{
+.left-links,.right-links, ul{
     display:flex;
     list-style:none;
     gap:12px;
@@ -31,21 +32,81 @@ body{
 
 }
 
+
+
+
 .hero-subtitle{
     text-align:center;
+    bottom-margin:12px;
 }
 .hero-text{
     display:flex;
     justify-content: center;
-    font-size:60px;
-    font-weight: 900;
+    font-size:84px;
+    font-weight: 900px;
+    text-align:center;
+}
+
+.hero-text2{
+    display:flex;
+    text-align:center;
+    font-size:84px;
+    font-weight:900px;
+    justify-content:center;
+    color:blueviolet;
+
 }
 
 .logo{
-    
-  
-  width: fit-content;
-  height: fit-content;
-  margin: auto;
+    float:none;
+    text-align:center;
+    display:flex;
+   
+    justify-content:flex-end;
+    align-self:center;  
+}
+
+.right-links{
+ float:right;   
+}
+
+.left-links{
+    float:left;
+}
+
+.option{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:12px;
 }
    
+.container{
+    display: flex;
+    gap:16px;
+    flex-direction:column;
+    flex
+
+}
+
+
+.option-1,
+.option-2,
+.option-3{
+    background-color: peachpuff;
+    border-radius:24px;
+    padding:12px;
+    width:300px;
+    height:300px;
+    
+
+}
+
+.option-1{
+    
+}
+
+.option-2,
+.option-3{
+
+} 
