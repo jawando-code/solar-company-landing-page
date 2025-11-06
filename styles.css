@@ -4,6 +4,8 @@ body{
     background-color: lavender;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
+    margin:0;
+  
 
 }
 
@@ -17,7 +19,7 @@ body{
     padding:12px;
     font-size:18px;
     color:white;
-    margin:0;
+    min-width:0;
     border-radius:24px;
     gap:6px;
 
@@ -77,36 +79,58 @@ body{
 .option{
     display:flex;
     justify-content: center;
-    align-items:center;
+    align-items:flex-start;
     gap:12px;
+    padding:6px;
+    font-display: block;
+    margin-top:24px;
+    margin-bottom:24px;
+    
 }
    
-.container{
-    display: flex;
-    gap:16px;
-    flex-direction:column;
-    flex
 
-}
 
 
 .option-1,
 .option-2,
 .option-3{
-    background-color: peachpuff;
+    background-color:peachpuff;
     border-radius:24px;
     padding:12px;
-    width:300px;
-    height:300px;
+    width:600px;
+   
     
-
+    
 }
 
 .option-1{
-    
+    height:324px;
 }
 
 .option-2,
 .option-3{
-
+    height:140px;
+   
 } 
+
+.container{
+    display: flex;
+    gap:16px;
+    flex-direction:column;
+    
+
+}
+
+.option-gap{
+    height:20px;
+}
+
+.second-hero{
+    display:flex;
+    justify-content:center;
+   
+}
+
+img{
+     border-radius:24px;
+}
